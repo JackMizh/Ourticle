@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "33681016198",
+    "project_id": "ourticle-f0654",
+    "storage_bucket": "ourticle-f0654.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:33681016198:android:439f6a27d7c513201cd807",
+        "android_client_info": {
+          "package_name": "com.example.ourticle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "33681016198-vtom8itfbv6edr99n2jp2a2m446u04be.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6HDszERoQ6Djq709ZKfJAAsRi4a-ZEYc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "33681016198-vtom8itfbv6edr99n2jp2a2m446u04be.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
