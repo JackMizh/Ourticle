@@ -4,12 +4,199 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".fragments.ExploreFragment"
-    android:background="@android:color/white">
+    android:background="@android:color/white"
+    android:paddingHorizontal="30dp">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:paddingBottom="100dp"
+           android:layout_marginTop="30dp">
+
+           <LinearLayout
+               android:id="@+id/llSearch"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+
+               <EditText
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:background="@drawable/bg_fav_white"
+                   android:hint="Search"
+                   android:textColorHint="@color/grey"
+                   android:padding="12dp"
+                   android:drawableLeft="@drawable/ic_baseline_search_24"
+                   android:drawablePadding="10dp"
+                   android:textColor="@color/black"/>
+
+           </LinearLayout>
+
+           <LinearLayout
+               android:id="@+id/llFilm"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_below="@+id/llSearch"
+               android:layout_marginTop="40dp"
+               android:orientation="vertical">
+
+               <TextView
+                   android:id="@+id/tvFilm"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="Film"
+                   android:textColor="@color/black"
+                   android:textStyle="bold"/>
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="horizontal"
+                   android:gravity="center">
+
+                   <ImageView
+                       android:layout_width="150dp"
+                       android:layout_height="150dp"
+                       android:src="@drawable/trend1"
+                       android:layout_marginEnd="20dp"/>
+
+                   <ImageView
+                       android:layout_width="150dp"
+                       android:layout_height="150dp"
+                       android:src="@drawable/trend1"
+                       android:layout_marginStart="20dp"/>
+
+               </LinearLayout>
+
+
+
+           </LinearLayout>
+
+           <LinearLayout
+               android:id="@+id/llSport"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_below="@+id/llFilm"
+               android:layout_marginTop="40dp"
+               android:orientation="vertical">
+
+               <TextView
+                   android:id="@+id/tvSport"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="Sport"
+                   android:textColor="@color/black"
+                   android:textStyle="bold"/>
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="horizontal"
+                   android:gravity="center">
+
+                   <ImageView
+                       android:layout_width="150dp"
+                       android:layout_height="150dp"
+                       android:src="@drawable/trend1"
+                       android:layout_marginEnd="20dp"/>
+
+                   <ImageView
+                       android:layout_width="150dp"
+                       android:layout_height="150dp"
+                       android:src="@drawable/trend1"
+                       android:layout_marginStart="20dp"/>
+
+               </LinearLayout>
+
+
+
+           </LinearLayout>
+
+           <LinearLayout
+               android:id="@+id/llFood"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_below="@+id/llSport"
+               android:layout_marginTop="40dp"
+               android:orientation="vertical">
+
+               <TextView
+                   android:id="@+id/tvFood"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="Food"
+                   android:textColor="@color/black"
+                   android:textStyle="bold"/>
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="horizontal"
+                   android:gravity="center">
+
+                   <ImageView
+                       android:layout_width="150dp"
+                       android:layout_height="150dp"
+                       android:src="@drawable/trend1"
+                       android:layout_marginEnd="20dp"/>
+
+                   <ImageView
+                       android:layout_width="150dp"
+                       android:layout_height="150dp"
+                       android:src="@drawable/trend1"
+                       android:layout_marginStart="20dp"/>
+
+               </LinearLayout>
+
+
+
+           </LinearLayout>
+
+           <LinearLayout
+               android:id="@+id/llGame"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_below="@+id/llFood"
+               android:layout_marginTop="40dp"
+               android:orientation="vertical">
+
+               <TextView
+                   android:id="@+id/tvGame"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="Game"
+                   android:textColor="@color/black"
+                   android:textStyle="bold"/>
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="horizontal"
+                   android:gravity="center">
+
+                   <ImageView
+                       android:layout_width="150dp"
+                       android:layout_height="150dp"
+                       android:src="@drawable/trend1"
+                       android:layout_marginEnd="20dp"/>
+
+                   <ImageView
+                       android:layout_width="150dp"
+                       android:layout_height="150dp"
+                       android:src="@drawable/trend1"
+                       android:layout_marginStart="20dp"/>
+
+               </LinearLayout>
+
+
+
+           </LinearLayout>
+
+       </RelativeLayout>
+
+   </ScrollView>
 
 </FrameLayout>
