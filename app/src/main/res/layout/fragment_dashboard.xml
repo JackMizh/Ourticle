@@ -60,33 +60,43 @@
                     android:layout_height="wrap_content"
                     android:layout_below="@+id/tvForyou"
                     android:background="@drawable/bg_fav_white"
-                    android:orientation="vertical"
+                    android:orientation="horizontal"
+                    android:padding="10dp"
                     android:layout_marginBottom="15dp">
 
                     <View
-                        android:layout_width="match_parent"
-                        android:layout_height="150dp"
-                        android:background="@drawable/news1"
-                        android:layout_marginBottom="5dp"/>
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:background="@drawable/news1"/>
 
-                    <TextView
+                    <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:paddingHorizontal="15dp"
-                        android:text="Ariana Grande"
-                        android:textColor="@color/black"
-                        android:textSize="15dp" />
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:paddingStart="10dp">
 
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:paddingHorizontal="15dp"
-                        android:paddingBottom="15dp"
-                        android:paddingTop="2dp"
-                        android:text="Ariana Grande blablblablablablablabla blablabla blablabalbabbalal
-blabblabababablabbablbab abaknknakka.........."
-                        android:textColor="@color/grey"
-                        android:textSize="10dp" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Ariana Grande Menyanyikan Dangdut"
+                            android:textColor="@color/black"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:text="Ariana Grande asdasd asdhk kasjhdak  asjhdakjshd akjshdaksjh askjdhakjsdh asdasd asdas dasd asdasd asdasd blablblablablablablabla blablabla blablabalbabbalal abaknknakka.........."
+                            android:textColor="@color/grey"
+                            android:textSize="10dp"/>
+
+                        <ImageView
+                            android:id="@+id/ivBookmark"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="end"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/ic_baseline_bookmark_border_24"/>
+
+                    </LinearLayout>
 
                 </LinearLayout>
 
@@ -96,32 +106,43 @@ blabblabababablabbablbab abaknknakka.........."
                     android:layout_height="wrap_content"
                     android:layout_below="@+id/tvForyou"
                     android:background="@drawable/bg_fav_white"
-                    android:orientation="vertical"
+                    android:orientation="horizontal"
+                    android:padding="10dp"
                     android:layout_marginBottom="15dp">
 
                     <View
-                        android:layout_width="match_parent"
-                        android:layout_height="150dp"
-                        android:background="@drawable/news1" />
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:background="@drawable/news1"/>
 
-                    <TextView
+                    <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:paddingHorizontal="15dp"
-                        android:text="Ariana Grande"
-                        android:textColor="@color/black"
-                        android:textSize="15dp" />
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:paddingStart="10dp">
 
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:paddingHorizontal="15dp"
-                        android:paddingBottom="15dp"
-                        android:paddingTop="2dp"
-                        android:text="Ariana Grande blablblablablablablabla blablabla blablabalbabbalal
-blabblabababablabbablbab abaknknakka.........."
-                        android:textColor="@color/grey"
-                        android:textSize="10dp" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Ariana Grande Menyanyikan Dangdut"
+                            android:textColor="@color/black"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:text="Ariana Grande asdasd asdhk kasjhdak  asjhdakjshd akjshdaksjh askjdhakjsdh asdasd asdas dasd asdasd asdasd blablblablablablablabla blablabla blablabalbabbalal abaknknakka.........."
+                            android:textColor="@color/grey"
+                            android:textSize="10dp"/>
+
+                        <ImageView
+                            android:id="@+id/ivBookmark2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="end"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/ic_baseline_bookmark_border_24"/>
+
+                    </LinearLayout>
 
                 </LinearLayout>
 
@@ -131,32 +152,43 @@ blabblabababablabbablbab abaknknakka.........."
                     android:layout_height="wrap_content"
                     android:layout_below="@+id/tvForyou"
                     android:background="@drawable/bg_fav_white"
-                    android:orientation="vertical"
+                    android:orientation="horizontal"
+                    android:padding="10dp"
                     android:layout_marginBottom="15dp">
 
                     <View
-                        android:layout_width="match_parent"
-                        android:layout_height="150dp"
-                        android:background="@drawable/news1" />
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:background="@drawable/news1"/>
 
-                    <TextView
+                    <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:paddingHorizontal="15dp"
-                        android:text="Ariana Grande"
-                        android:textColor="@color/black"
-                        android:textSize="15dp" />
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:paddingStart="10dp">
 
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:paddingHorizontal="15dp"
-                        android:paddingBottom="15dp"
-                        android:paddingTop="2dp"
-                        android:text="Ariana Grande blablblablablablablabla blablabla blablabalbabbalal
-blabblabababablabbablbab abaknknakka.........."
-                        android:textColor="@color/grey"
-                        android:textSize="10dp" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Ariana Grande Menyanyikan Dangdut"
+                            android:textColor="@color/black"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:text="Ariana Grande asdasd asdhk kasjhdak  asjhdakjshd akjshdaksjh askjdhakjsdh asdasd asdas dasd asdasd asdasd blablblablablablablabla blablabla blablabalbabbalal abaknknakka.........."
+                            android:textColor="@color/grey"
+                            android:textSize="10dp"/>
+
+                        <ImageView
+                            android:id="@+id/ivBookmark3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="end"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/ic_baseline_bookmark_border_24"/>
+
+                    </LinearLayout>
 
                 </LinearLayout>
 

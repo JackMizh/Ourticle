@@ -24,6 +24,36 @@
         <entry key="..\:/Program Files/Android/Ourticles/app/src/main/res/layout/fragment_dashboard.xml" value="0.25" />
         <entry key="..\:/Program Files/Android/Ourticles/app/src/main/res/layout/fragment_explore.xml" value="0.25" />
         <entry key="..\:/Program Files/Android/Ourticles/app/src/main/res/layout/fragment_profile.xml" value="0.25" />
+        <entry key="..\:/Program Files/Android/Project/Ourticle/app/src/main/res/drawable/bg_btn_editprofile.xml" value="0.1" />
+        <entry key="..\:/Program Files/Android/Project/Ourticle/app/src/main/res/drawable/bg_btn_rounded.xml" value="0.1" />
+        <entry key="..\:/Program Files/Android/Project/Ourticle/app/src/main/res/drawable/bg_btn_rounded2.xml" value="0.123" />
+        <entry key="..\:/Program Files/Android/Project/Ourticle/app/src/main/res/drawable/bg_btn_rounded_img.xml" value="0.123" />
+        <entry key="..\:/Program Files/Android/Project/Ourticle/app/src/main/res/drawable/bg_fav_clicked.xml" value="0.123" />
+        <entry key="..\:/Program Files/Android/Project/Ourticle/app/src/main/res/drawable/bg_fav_white.xml" value="0.124" />
+        <entry key="..\:/Program Files/Android/Project/Ourticle/app/src/main/res/drawable/bg_textarea.xml" value="0.122" />
+        <entry key="..\:/Program Files/Android/Project/Ourticle/app/src/main/res/drawable/bg_texteditprofile.xml" value="0.123" />
+        <entry key="..\:/Program Files/Android/Project/Ourticle/app/src/main/res/drawable/bg_transparent.xml" value="0.1" />
+        <entry key="..\:/Program Files/Android/Project/Ourticle/app/src/main/res/drawable/edittext_border_bottom.xml" value="0.124" />
+        <entry key="..\:/Program Files/Android/Project/Ourticle/app/src/main/res/drawable/ic_add.xml" value="0.1" />
+        <entry key="..\:/Program Files/Android/Project/Ourticle/app/src/main/res/drawable/ic_baseline_bookmark_border_24.xml" value="0.1465" />
+        <entry key="..\:/Program Files/Android/Project/Ourticle/app/src/main/res/drawable/ic_baseline_check_24.xml" value="0.1465" />
+        <entry key="..\:/Program Files/Android/Project/Ourticle/app/src/main/res/drawable/ic_baseline_check_blue.xml" value="0.122" />
+        <entry key="..\:/Program Files/Android/Project/Ourticle/app/src/main/res/drawable/ic_baseline_clear_24.xml" value="0.1465" />
+        <entry key="..\:/Program Files/Android/Project/Ourticle/app/src/main/res/drawable/ic_baseline_clear_black.xml" value="0.123" />
+        <entry key="..\:/Program Files/Android/Project/Ourticle/app/src/main/res/drawable/ic_baseline_clear_blue.xml" value="0.123" />
+        <entry key="..\:/Program Files/Android/Project/Ourticle/app/src/main/res/drawable/ic_bg_profile.xml" value="0.1" />
+        <entry key="..\:/Program Files/Android/Project/Ourticle/app/src/main/res/drawable/ic_bookmark.xml" value="0.1" />
+        <entry key="..\:/Program Files/Android/Project/Ourticle/app/src/main/res/drawable/ic_travel_clicked.xml" value="0.124" />
+        <entry key="..\:/Program Files/Android/Project/Ourticle/app/src/main/res/drawable/ic_wave_top.xml" value="0.124" />
+        <entry key="..\:/Program Files/Android/Project/Ourticle/app/src/main/res/drawable/line.xml" value="0.121" />
+        <entry key="..\:/Program Files/Android/Project/Ourticle/app/src/main/res/layout/activity_dashboard.xml" value="0.17481884057971014" />
+        <entry key="..\:/Program Files/Android/Project/Ourticle/app/src/main/res/layout/activity_edit_profile.xml" value="0.25" />
+        <entry key="..\:/Program Files/Android/Project/Ourticle/app/src/main/res/layout/activity_fav.xml" value="0.11302083333333333" />
+        <entry key="..\:/Program Files/Android/Project/Ourticle/app/src/main/res/layout/activity_post.xml" value="0.25" />
+        <entry key="..\:/Program Files/Android/Project/Ourticle/app/src/main/res/layout/fragment_bookmark.xml" value="0.17916666666666667" />
+        <entry key="..\:/Program Files/Android/Project/Ourticle/app/src/main/res/layout/fragment_dashboard.xml" value="0.33" />
+        <entry key="..\:/Program Files/Android/Project/Ourticle/app/src/main/res/layout/fragment_explore.xml" value="0.21" />
+        <entry key="..\:/Program Files/Android/Project/Ourticle/app/src/main/res/layout/fragment_profile.xml" value="0.244874715261959" />
       </map>
     </option>
   </component>

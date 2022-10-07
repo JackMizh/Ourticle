@@ -25,7 +25,7 @@
                <EditText
                    android:layout_width="match_parent"
                    android:layout_height="wrap_content"
-                   android:background="@drawable/bg_fav_white"
+                   android:background="@drawable/bg_btn_rounded2"
                    android:hint="Search"
                    android:textColorHint="@color/grey"
                    android:padding="12dp"

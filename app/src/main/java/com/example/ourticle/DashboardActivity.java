@@ -4,10 +4,12 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.ContextCompat;
 
+import android.content.Intent;
 import android.content.res.ColorStateList;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 
@@ -17,6 +19,7 @@ import com.example.ourticle.fragments.ExploreFragment;
 import com.example.ourticle.fragments.ProfileFragment;
 import com.google.android.material.bottomappbar.BottomAppBar;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.navigation.NavigationBarView;
 import com.google.android.material.shape.CornerFamily;
 import com.google.android.material.shape.MaterialShapeDrawable;
@@ -76,5 +79,14 @@ public class DashboardActivity extends AppCompatActivity {
         });
 
         bottomNavigationView.setSelectedItemId(R.id.dashboard);
+
+        FloatingActionButton fabPost = (FloatingActionButton) findViewById(R.id.fabPost);
+
+        fabPost.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getApplicationContext(), PostActivity.class));
+            }
+        });
     }
 }
